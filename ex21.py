@@ -26,5 +26,16 @@ print "Age: %d, Height: %d, Weigth: %d, IQ: %d" % (age, height, weight, iq)
 # A puzzle for the extra credit, type it in anyway
 print "Here is a puzzle."
 what = add(age, substract(height, multiply(weight, divide(iq, 2))))
-
 print "That becomes:", what, "Can you do it by hand?"
+
+what = iq / 2
+what = weight * what
+what = height - what
+what = age + what
+print "Puzzle decoded by hand: " + str(what)
+
+print "Testing functions:"
+print "%d + %d = %d" % (12, 2, add(12, 2))
+
+what = substract(age, add(height, divide(iq, multiply(weight, 100))))
+print "Puzzle 2:" + str(what)
