@@ -52,18 +52,4 @@ if (num_tests >= 1 and num_tests <= 20):
                                                     if (forgotten_words[i] 
                                                         == current_phrase[k]):
                                                         forgotten_words_found[i] = "Yes"
-                                    #else:
-                                    #    print "PW: %r is invalid" % current_phrase[j]
-                            #else:
-                            #    print "FG: %r is invalid." % forgotten_words[i]                        
-                    #else:
-                    #    print "Phrase %d can't be analyzed:%r" % (phrase,
-                    #    current_phrase)                        
-                #print "Case %d results: %r" % (test, str(forgotten_words_found))
                 print ' '.join(forgotten_words_found)
-            #else:
-            #    print "Invalid number of phrases in the modern language."
-        #else:
-        #    print "Invalid number of strings in the forgotten language."
-#else:
-#    print "Invalid number of test cases."
