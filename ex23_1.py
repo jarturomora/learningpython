@@ -32,7 +32,7 @@ if (num_tests >= 1 and num_tests <= 20):
                 # in modern language
                 forgotten_words_found = []
                 for i in range(0, len(forgotten_words)):
-                    forgotten_words_found.append("No")
+                    forgotten_words_found.append("NO")
                 # Start reading all the phrases in the modern language
                 for phrase in range (0, num_phrases):
                     current_phrase = str.split(in_file.readline())
@@ -46,10 +46,10 @@ if (num_tests >= 1 and num_tests <= 20):
                                 for j in range(0, phrase_len):
                                     if (word_len(current_phrase[j])):
                                         # Was the word found before?
-                                        if (forgotten_words_found[i] == "No"):
+                                        if (forgotten_words_found[i] == "NO"):
                                             for k in range(1, phrase_len):
                                                 if (word_len(current_phrase[k])):
                                                     if (forgotten_words[i] 
                                                         == current_phrase[k]):
-                                                        forgotten_words_found[i] = "Yes"
+                                                        forgotten_words_found[i] = "YES"
                 print ' '.join(forgotten_words_found)
