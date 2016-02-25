@@ -32,6 +32,7 @@ if (num_tests >= 1 and num_tests <= 20):
                     current_phrase = raw_input().split()                    
                     # Validate 1 <= phrase_len <= 50
                     phrase_len = int(current_phrase[0])
+                    del(current_phrase[0])
                     if (phrase_len >= 1 and phrase_len <=50):
                         # Look for the existense of every forgotten word in
                         # the current phrase
@@ -47,3 +48,4 @@ if (num_tests >= 1 and num_tests <= 20):
                                                         == current_phrase[k]):
                                                         forgotten_words_found[i] = "YES"
                 print ' '.join(forgotten_words_found)
+                print ""
