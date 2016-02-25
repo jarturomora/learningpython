@@ -4,15 +4,14 @@
 
 # This function validates if a string complains with the constraint
 # 1 <= length of any string in the input <= 5
-import re
-
 def word_len(word):
     valid_word = False
     if (len(word) > 1 and len(word) <= 5):
         valid_word = True
     return valid_word
 
-in_file = open("input1.txt")
+filename = raw_input()
+in_file = open(filename)
 
 num_tests = int(in_file.readline())
 # Valitate constain 1 <= num_tests <= 20
