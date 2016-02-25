@@ -10,8 +10,7 @@ def word_len(word):
         valid_word = True
     return valid_word
 
-filename = raw_input()
-in_file = open(filename)
+in_file = open("input1.txt")
 
 num_tests = int(in_file.readline())
 # Valitate constain 1 <= num_tests <= 20
