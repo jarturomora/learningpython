@@ -102,7 +102,7 @@ class LaserWeaponArmory(Scene):
         code = "%d%d%d" % (randint(1, 3), randint(1, 3), randint(1, 3))
         print "\n Here's a clue: *%c*" % code[1]
         guesses = 1
-        print "Code: " + code
+        # print "Code: " + code
         guess = raw_input("[Enter Code]> ")
 
         while guesses < 3 and guess != code:
@@ -155,7 +155,7 @@ class EspacePod(Scene):
             pick one of the five pods.
         """
         good_pod = randint(1,5)
-        print "Pod: " + str(good_pod)
+        # print "Pod: " + str(good_pod)
         guess = raw_input("[Pod Number]> ")
 
         if int(guess) == good_pod:
