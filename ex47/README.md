@@ -1,33 +1,25 @@
-Python Project Skeleton Inspired by Zed A. Shawn
-------------------------------------------------
+# Project Exercise 47 from the Book _Learn Python the Hard Way_
 
-### Pre-requirements
-Install the following pakages for python according to your operating system's
-specific steps, in my experience it takes about 60 minuts in Windows and 5
-minutes in Linux. You have to install this packages just once.
+This is the code for the project proposed in exercise 47 of the book
 
-1. pip from http://pypi.python.org/pypi/pip
-2. distribute from http://pypi.python.org/pypi/distribute
-3. nose from http://pypi.python.org/pypi/nose
-4. virtualenv from http://pypi.python.org/pypi/virtualenv
 
 ### Skeleton Start Checklist
-[ ] Define a short name for your project (I'll call it nickname), it will be
+[x] Define a short name for your project (I'll call it nickname), it will be
     used bellow.
 
-[ ] Rename the 'skeleton' directory to your project's nickname.
+[x] Rename the 'skeleton' directory to your project's nickname.
 
-[ ] Rename the NAME directory to your project's nickname.
+[x] Rename the NAME directory to your project's nickname.
 
-[ ] Uptade setup.py with your project's details, specially the packages item.
+[x] Uptade setup.py with your project's details, specially the packages item.
 
-[ ] Rename 'tests/NAME_tests.py' replacing NAME with your projects's nickname.
+[x] Rename 'tests/NAME_tests.py' replacing NAME with your projects's nickname.
 
-[ ] On line 2 of 'tests/NAME_tests.py' replace NAME with your project's
+[x] On line 2 of 'tests/NAME_tests.py' replace NAME with your project's
     nickname.
 
-[ ] Update this README file with your project's description.
+[x] Update this README file with your project's description.
 
-[ ] Push your project to your version control server.
+[x] Push your project to your version control server.
 
-[ ] Run 'nosetests' from your project's root directory and happy coding :-)
+[x] Run 'nosetests' from your project's root directory and happy coding :-)
