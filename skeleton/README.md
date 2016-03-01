@@ -14,12 +14,20 @@ minutes in Linux. You have to install this packages just once.
 ### Skeleton Start Checklist
 [ ] Define a short name for your project (I'll call it nickname), it will be
     used bellow.
+
 [ ] Rename the 'skeleton' directory to your project's nickname.
+
 [ ] Rename the NAME directory to your project's nickname.
+
 [ ] Uptade setup.py with your project's details, specially the packages item.
+
 [ ] Rename 'tests/NAME_tests.py' replacing NAME with your projects's nickname.
+
 [ ] On line 2 of 'tests/NAME_tests.py' replace NAME with your project's
     nickname.
+
 [ ] Update this README file with your project's description.
+
 [ ] Push your project to your version control server.
+
 [ ] Run 'nosetests' from your project's root directory and happy coding :-)
